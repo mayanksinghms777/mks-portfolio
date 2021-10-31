@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import { Route } from "react-router-dom"
+import { Route,Switch } from "react-router-dom"
 import Home from './components/Home';
 import Navbar from './components/Navbar'
 import Aboutus from './components/Aboutus';
@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 const App =() => {
   return (
     <>
+    <Switch>
     <Navbar/>
      <Route exact path ="/">
           <Home/>
@@ -32,7 +33,7 @@ const App =() => {
       <Route exact path ="/contact">
           <Contact/>
       </Route>
-     
+      </Switch>
     </>
   )
 }
