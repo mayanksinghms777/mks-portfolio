@@ -12,7 +12,6 @@ import Contact from './components/Contact';
 const App =() => {
   return (
     <>
-    <Switch>
     <Navbar/>
      <Route exact path ="/">
           <Home/>
@@ -33,7 +32,6 @@ const App =() => {
       <Route exact path ="/contact">
           <Contact/>
       </Route>
-      </Switch>
     </>
   )
 }
