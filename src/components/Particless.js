@@ -17,7 +17,7 @@ const Particless = () => {
 	            "value": 1
 	        },
 			"move":{
-				"speed":2
+				"speed":1.5
 			}
 	    },
 		"size": {

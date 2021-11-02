@@ -8,7 +8,7 @@ body{
  font-size: 0.875rem;
   background: var(--body-color);
   font-family: var(--font);
-  color: aliceblue;
+  color: var(--background-text);
 
 }
 
@@ -27,23 +27,6 @@ body::-webkit-scrollbar-track {
 ul{ list-style: none; }
 
 
-.myimage{
-  width: 250px;
-  height: 370px;
-  margin-top: 130px;
-  box-shadow: 0 -15px 15px rgba(255, 255, 255, 9%),
-                inset 0 -15px 15px rgba(255, 255, 255, 9%),
-                 0 15px 15px rgba(66, 66, 66, 0.3),
-                inset 0 15px 15px rgba(197, 197, 197, 0.3);
-  transition: 1s;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.myimage:hover{
-  transform: translate(-10px, 10px);
-  box-shadow: grey 5px 5px 10px;
-}
 .bg-light {
   background-color: #0d0f10!important;
 }
@@ -54,37 +37,30 @@ ul{ list-style: none; }
   --primary-color: #e20f2f;
   --secondary-color: #ff0;
   --body-color: rgb(2 2 2);
-  --text-color: #D2B48C;
+  --background-text: aliceblue;
+  --heading-color: #D2B48C;
   --font: "Poppins", sans-serif;
 }
 
 .dark__theme {
   --primary-color: #e20f2f;
-  --background-color: #ffffff;
-  --body-color: #fffdfd;
-  --text-color: #D2B48C;
+  --background-text: aliceblue;
+  --body-color: rgb(2 2 2);
+  --heading-color: #D2B48C;
+  --gray900: #f0f0f5;
+  --animationTime: 300ms;
 }
 
-.light {
+.light_theme {
   --primary-color: #e20f2f !important;
-  --background-color: rgb(226, 226, 226) !important;
-  --body-color: #fff !important;
+  --background-text: #181717 !important;
+  --heading-color: #fff !important;
   --text-color: #D2B48C;
 }
 
 
 /* Navbar*/
 
-:root {
-  --gray200: #26273b;
-  --gray400: #454560;
-  --gray600: #6f708b;
-  --gray600-accent: #6f70b8;
-  --gray700: hsl(237, 14%, 72%);
-  --gray800: hsl(240, 15%, 86%);
-  --gray900: #f0f0f5;
-  --animationTime: 300ms;
-}
 
 *,
 *::before,
@@ -248,7 +224,7 @@ ul{ list-style: none; }
   align-items: center;
   justify-content: center;
   display: inline-flex;
-  font-size: 24px;
+  font-size: 23px;
   color: #D2B48C;
 }
 
@@ -550,7 +526,7 @@ navbar-menu {
 /* expriences */
 
 .expriences-container{
-  min-height: calc(100vh - 5rem);
+  min-height: calc(100vh - 7rem);
 }
 .expriences-container i{
  color: #ddb178;

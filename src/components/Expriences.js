@@ -1,13 +1,18 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Expriences() {
+
+    AOS.init()
+
     return (
         <>
             <section className="about">
                 <div className="expriences-container container d-flex flex-column align-items-center justify-content-center">
                     <div className="row p-0 m-0 w-100 d-flex flex-row align-items-start justify-content-center">
                         <div className="p-0 col-12 col-sm-8 d-flex flex-column align-items-center justify-content-center">
-                        <h1 className="mb-4">My Experiences <i class="fa fa-suitcase"></i></h1>
+                        <h1 className="mb-4" data-aos="fade-down" >My Experiences <i class="fa fa-suitcase"></i></h1>
                         <div className="exp1 row w-100">
                             <div class="col-12 mb-4">
                                 <h4>Full Stack Developer</h4>

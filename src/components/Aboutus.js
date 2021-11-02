@@ -1,9 +1,13 @@
 import React, { useEffect, useRef } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { NavLink } from 'react-router-dom';
 import lottie from "lottie-web";
 
 
 function Aboutus() {
+
+    AOS.init()
 
     const aboutGIF = useRef(null);
 
@@ -27,13 +31,13 @@ function Aboutus() {
             <div className="about-container container d-flex flex-column align-items-center justify-content-center">
                 <div className="mt-5 row d-flex flex-row align-items-center justify-content-center w-100">
                     <div className="col-12 col-sm-8 p-0 h-100">
-                            <h1 className="mb-4">About Me</h1>
+                            <h1 className="mb-4" data-aos="zoom-in" >About Me</h1>
                             <h4>Computer Science Engineer</h4>
                             <p className="p-tag">Hello There! I am <b>Mayank Kumar Singh</b>, an aspiring <i>Computer Science Engineer</i>. My interests lies in the domain of <u>Web Development</u> and <u>Business Analyst</u>. I'm a fourth year student, learning skills in <u>Software development</u>  and <u>Web development.</u> </p>
                             <p></p>
                             <div className="d-flex flex-row justify-content-center w-100">
-                                <NavLink className="button-contact" to="/contact">Contact Me</NavLink>
-                                <a target="_blank" className="button-contact" href="https://drive.google.com/file/d/1MVlBPzJk-BiUPhGbjulRBIUB0PBiHlrE/view?usp=sharing">Resume</a>
+                                <NavLink data-aos="fade-right" className="button-contact" to="/contact">Contact Me</NavLink>
+                                <a target="_blank" data-aos="fade-left" className="button-contact" href="https://drive.google.com/file/d/1MVlBPzJk-BiUPhGbjulRBIUB0PBiHlrE/view?usp=sharing">Resume</a>
                             </div>
                     </div>
                     <div className="col-12 mt-1 col-sm-4 p-0 h-100 d-flex justify-content-center">
@@ -43,7 +47,7 @@ function Aboutus() {
                 </div>
                 <div className="mt-5 mb-5 row d-flex flex-row w-100">
                     <div className="col-12 d-flex flex-column align-items-center justify-content-center w-100 p-0 h-100">
-                        <h3>Skills</h3>
+                        <h3 data-aos="flip-left" >Skills</h3>
                         <table class="table mt-4">
                             <tbody>
                                 <tr>

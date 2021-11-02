@@ -1,10 +1,14 @@
 import React, { useEffect, useRef } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import lottie from "lottie-web";
 import hotelimg from "./images/Screenshot 2021-10-21 at 4.38.35 PM.png"
 import weatherimg from "./images/Screenshot 2021-10-31 at 1.23.39 PM.png"
 import dashimg from "./images/3556960.jpg"
 
 function Projects() {
+    
+    AOS.init()
 
     const projectGIF = useRef(null);
 
@@ -39,7 +43,7 @@ function Projects() {
                                         <img className="align-self-center" width="90%" src={hotelimg} alt="" />
                                     </div>
                                     <div class="col-12 col-sm-6 mt-2 mt-sm-0 d-flex flex-column align-item-center justify-content-center">
-                                    <h5 class="w-100 gs_reveal ipsType_center">Hotel Managment System
+                                    <h5 class="w-100" data-aos="fade-down" >Hotel Managment System
                                         <div className="project-links">
                                         <a target="_blank" rel="noreferrer" href="https://github.com/mayanksinghms777/Hotel-MKS-Dashboard"><i class="ml-4 mr-1 fab fa-github"></i></a>
                                         <a target="_blank" rel="noreferrer" href="https://hotelmks-dashboard.herokuapp.com/"><i class="ml-2 mr-1 fa fa-external-link-alt"></i></a>
@@ -60,13 +64,13 @@ function Projects() {
                                         <img className="align-self-center" width="90%" height="85%" src={dashimg} alt="" />
                                     </div>
                                     <div class="col-12 col-sm-6 mt-2 mt-sm-0 d-flex flex-column align-item-center justify-content-center">
-                                    <h5 class="w-100 gs_reveal ipsType_center">Company Dashboard 
+                                    <h5 class="w-100" data-aos="fade-up" >Company Dashboard 
                                     <div className="project-links">
                                         <a target="_blank" rel="noreferrer" href="https://github.com/mayanksinghms777/mks-dashboard"><i class="ml-4 mr-1 fab fa-github"></i></a>
                                         <a target="_blank" rel="noreferrer" href=" https://mks-dashboard.herokuapp.com/"><i class="ml-2 mr-1 fa fa-external-link-alt"></i></a>
                                         </div>
                                     </h5>
-                                    <p>A software to manage Comapny's Employees using Dashboard which is created by mern stack.</p>
+                                    <p data-aos="fade-down-left">A software to manage Comapny's Employees using Dashboard which is created by mern stack.</p>
                                     <div><span class="badge">JavaScript</span>
                                     <span class="badge">React.js</span></div>
                                     </div>
@@ -81,13 +85,13 @@ function Projects() {
                                         <img className="align-self-center" width="90%" height="80%" src={weatherimg} alt="" />
                                     </div>
                                     <div class="col-12 col-sm-6 mt-2 mt-sm-0 d-flex flex-column align-item-center justify-content-center">
-                                    <h5 class="w-100 gs_reveal ipsType_center">Weather App
+                                    <h5 class="w-100" data-aos="fade-up" >Weather App
                                     <div className="project-links">
                                         <a target="_blank" rel="noreferrer" href="https://github.com/mayanksinghms777/weather_app"><i class="ml-4 mr-1 fab fa-github"></i></a>
                                         <a target="_blank" rel="noreferrer" href="https://mayank-weatherapp.herokuapp.com/"><i class="ml-2 mr-1 fa fa-external-link-alt"></i></a>
                                     </div>
                                     </h5>
-                                    <p>A software using Api show the current temperature of given state or country.</p>
+                                    <p data-aos="fade-down-left">A software using Api show the current temperature of given state or country.</p>
                                     <div><span class="badge">JavaScript</span>
                                     <span class="badge">React.js</span></div>
                                     </div>
