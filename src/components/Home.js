@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import Particles from './Particless'
 import Typing from './Typing'
-import photo from './images/gr.jpg'
+import photo from './images/gr-min.jpg'
 
 function Home() {
     return (
