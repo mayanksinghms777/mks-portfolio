@@ -13,7 +13,7 @@ function Home() {
             <div className="row d-none d-sm-flex align-items-center mt-4">
                 <div className="col-3">  <h4>@mayanksinghms777</h4> </div>
                 <div className="col-9 d-flex flex-row justify-content-end align-items-center ml-auto">
-                    <a className="button-contact" target="__blank__" href="mailto:mayanksinghms777@gmail.com" >Contact Me</a>
+                    <NavLink className="button-contact" to="/contact">Contact Me</NavLink>
                     <a className="button-contact" target="_blank" href="https://drive.google.com/file/d/1MVlBPzJk-BiUPhGbjulRBIUB0PBiHlrE/view?usp=sharing">Resume</a>
                 </div>  
             </div>

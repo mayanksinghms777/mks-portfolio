@@ -644,3 +644,9 @@ navbar-menu {
   display: inline;
   margin-right: 10px;
 }
+
+/* mail */
+
+.mail{
+  width: 94%;
+}

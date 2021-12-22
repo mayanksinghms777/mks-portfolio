@@ -45,6 +45,12 @@ function Contact() {
                     </form>
                         </div>
                         </div>
+                        <div className="p-0 mt-1 col-12 col-sm-8 d-flex flex-column align-items-center justify-content-center">
+                        <h1 className="mb-4 ">OR</h1>
+                            <div className="row mail">
+                                <a className="button-contact btn m-0 mb-5" target="__blank__" href="mailto:mayanksinghms777@gmail.com" ><b>Mail me</b></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
