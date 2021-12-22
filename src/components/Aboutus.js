@@ -36,7 +36,7 @@ function Aboutus() {
                             <p className="p-tag">Hello There! I am <b>Mayank Kumar Singh</b>, an aspiring <i>Computer Science Engineer</i>. My interests lies in the domain of <u>Web Development</u> and <u>Business Analyst</u>. I'm a fourth year student, learning skills in <u>Software development</u>  and <u>Web development.</u> </p>
                             <p></p>
                             <div className="d-flex flex-row justify-content-center w-100">
-                                <NavLink data-aos="fade-right" className="button-contact" to="/contact">Contact Me</NavLink>
+                                <a className="button-contact" target="__blank__" href="mailto:mayanksinghms777@gmail.com" >Contact Me</a>
                                 <a target="_blank" data-aos="fade-left" className="button-contact" href="https://drive.google.com/file/d/1MVlBPzJk-BiUPhGbjulRBIUB0PBiHlrE/view?usp=sharing">Resume</a>
                             </div>
                     </div>
