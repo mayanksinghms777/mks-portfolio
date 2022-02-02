@@ -26,7 +26,7 @@ function Home() {
                         
                         <div className="d-flex d-sm-none flex-row justify-content-start align-items-center mb-4">
                             <NavLink className="button-contact" to="/contact">Contact Me</NavLink>
-                            <a className="button-contact" target="_blank" href="https://drive.google.com/file/d/1MVlBPzJk-BiUPhGbjulRBIUB0PBiHlrE/view?usp=sharing">Resume</a>
+                            <a className="button-contact" target="_blank" href="https://drive.google.com/file/d/10KucIsyJmj8-QRMyxHE3ogLZbIHQvpdy/view?usp=sharing">Resume</a>
                         </div>
                     </div>
                 </div>
