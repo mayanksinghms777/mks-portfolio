@@ -14,7 +14,7 @@ function Home() {
                 <div className="col-3">  <h4>@mayanksinghms777</h4> </div>
                 <div className="col-9 d-flex flex-row justify-content-end align-items-center ml-auto">
                     <NavLink className="button-contact" to="/contact">Contact Me</NavLink>
-                    <a className="button-contact" target="_blank" href="https://drive.google.com/file/d/1MVlBPzJk-BiUPhGbjulRBIUB0PBiHlrE/view?usp=sharing">Resume</a>
+                    <a className="button-contact" target="_blank" href="https://drive.google.com/file/d/10KucIsyJmj8-QRMyxHE3ogLZbIHQvpdy/view?usp=sharing">Resume</a>
                 </div>  
             </div>
             <div className="row d-flex flex-row flex-grow-1 align-items-center justify-content-center">

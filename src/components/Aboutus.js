@@ -37,7 +37,7 @@ function Aboutus() {
                             <p></p>
                             <div className="d-flex flex-row justify-content-center w-100">
                                 <NavLink className="button-contact" to="/contact">Contact Me</NavLink>
-                                <a target="_blank" data-aos="fade-left" className="button-contact" href="https://drive.google.com/file/d/1MVlBPzJk-BiUPhGbjulRBIUB0PBiHlrE/view?usp=sharing">Resume</a>
+                                <a target="_blank" data-aos="fade-left" className="button-contact" href="https://drive.google.com/file/d/10KucIsyJmj8-QRMyxHE3ogLZbIHQvpdy/view?usp=sharing">Resume</a>
                             </div>
                     </div>
                     <div className="col-12 mt-1 col-sm-4 p-0 h-100 d-flex justify-content-center">
