@@ -37,15 +37,15 @@ const Typing = () => {
   return (
     <Box className={classes.typedContainer}>
       <Typography className={classes.title} variant="h2">
-        <Typed strings={["Mayank Kumar Singh"]} typeSpeed={40} showCursor={false} />
+        <Typed strings={["Happy Birthday"]} typeSpeed={40} showCursor={false} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            "I am a Computer Engineer",
-            "I am a Developer",
-            "I am a coder",
+            "Dear 💙",
+            "beachuu 💙",
+            "Rai puri jii !! ❤️",
           ]}
           typeSpeed={40}
           backSpeed={50}

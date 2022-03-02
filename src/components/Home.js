@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import Particles from './Particless'
 import Typing from './Typing'
-import photo from './images/gr-min.jpg'
+import photo from './images/1646218137668.jpg'
 
 function Home() {
     return (
@@ -20,7 +20,7 @@ function Home() {
             <div className="row d-flex flex-row flex-grow-1 align-items-center justify-content-center">
                 <div className="col-12 col-sm-8 p-0 h-100">
                     <div className="intro">
-                        <p className="intro-one">Hi, my name is ....</p>
+                        <p className="intro-one">The cutest girl </p>
                         
                         <span className="intro-two"><Typing/></span>
                         
@@ -32,7 +32,7 @@ function Home() {
                 </div>
                 <div className="col-12 col-sm-4 col p-0 h-100">
                     <div className="photo">
-                        <img src={photo} width="70%" alt="" className="photo-adjust"/>
+                        <img src={photo} width="80%" alt="" className="photo-adjust"/>
                     </div>
                 </div>
             </div>
