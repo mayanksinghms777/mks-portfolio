@@ -13,7 +13,7 @@ const App =() => {
   return (
     <>
     <Navbar/>
-     <Route exact path ="/">
+     <Route exact path ="/mks-portfolio">
           <Home/>
       </Route>
 
