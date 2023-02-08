@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import { Route, Redirect } from "react-router-dom"
+import { Route, Redirect, BrowserRouter } from "react-router-dom"
 import Home from './components/Home';
 import Navbar from './components/Navbar'
 import Aboutus from './components/Aboutus';
@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 const App =() => {
   return (
     <>
+    <BrowserRouter basename="/mks-portfolio">   
     <Navbar/>
      <Route exact path ="/">
           <Home/>
@@ -33,6 +34,8 @@ const App =() => {
           <Contact/>
       </Route>
       <Redirect to="/" />
+      </BrowserRouter>
+
     </>
   )
 }
