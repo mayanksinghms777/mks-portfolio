@@ -13,26 +13,26 @@ const App =() => {
   return (
     <>
     <Navbar/>
-     <Route exact path ="/">
+     <Route exact path ="/gh-pages-url/">
           <Home/>
       </Route>
 
-      <Route exact path ="/aboutus">
+      <Route exact path ="/gh-pages-url/aboutus">
           <Aboutus/>
       </Route>
-      <Route exact path ="/expriences">
+      <Route exact path ="/gh-pages-url/expriences">
           <Expriences/>
       </Route>
-      <Route exact path ="/education">
+      <Route exact path ="/gh-pages-url/education">
           <Education/>
       </Route>
-      <Route exact path ="/projects">
+      <Route exact path ="/gh-pages-url/projects">
           <Projects/>
       </Route>
-      <Route exact path ="/contact">
+      <Route exact path ="/gh-pages-url/contact">
           <Contact/>
       </Route>
-      <Redirect to="/" />
+      <Redirect to="/gh-pages-url/" />
     </>
   )
 }
