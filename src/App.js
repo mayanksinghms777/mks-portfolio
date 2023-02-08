@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import { Route } from "react-router-dom"
+import { Route, Redirect } from "react-router-dom"
 import Home from './components/Home';
 import Navbar from './components/Navbar'
 import Aboutus from './components/Aboutus';
@@ -13,7 +13,7 @@ const App =() => {
   return (
     <>
     <Navbar/>
-     <Route exact path ="/mks-portfolio">
+     <Route exact path ="/">
           <Home/>
       </Route>
 
@@ -32,6 +32,7 @@ const App =() => {
       <Route exact path ="/contact">
           <Contact/>
       </Route>
+      <Redirect to="/" />
     </>
   )
 }
