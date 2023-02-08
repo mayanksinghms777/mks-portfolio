@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mks-portfolio/static/css/main.4bf4e4cc.chunk.css",
+    "main.css": "/mks-portfolio/static/css/main.73fed79b.chunk.css",
     "main.js": "/mks-portfolio/static/js/main.22fbedbe.chunk.js",
     "main.js.map": "/mks-portfolio/static/js/main.22fbedbe.chunk.js.map",
     "runtime-main.js": "/mks-portfolio/static/js/runtime-main.3f5bbf57.js",
@@ -12,7 +12,7 @@
     "static/js/3.6dcaec70.chunk.js.map": "/mks-portfolio/static/js/3.6dcaec70.chunk.js.map",
     "index.html": "/mks-portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/mks-portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.4bf4e4cc.chunk.css.map": "/mks-portfolio/static/css/main.4bf4e4cc.chunk.css.map",
+    "static/css/main.73fed79b.chunk.css.map": "/mks-portfolio/static/css/main.73fed79b.chunk.css.map",
     "static/js/2.bf511ae7.chunk.js.LICENSE.txt": "/mks-portfolio/static/js/2.bf511ae7.chunk.js.LICENSE.txt",
     "static/media/3556960.d27e9c63.jpg": "/mks-portfolio/static/media/3556960.d27e9c63.jpg",
     "static/media/Screenshot 2021-10-21 at 4.38.35 PM.e129c934.png": "/mks-portfolio/static/media/Screenshot 2021-10-21 at 4.38.35 PM.e129c934.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.3f5bbf57.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.bf511ae7.chunk.js",
-    "static/css/main.4bf4e4cc.chunk.css",
+    "static/css/main.73fed79b.chunk.css",
     "static/js/main.22fbedbe.chunk.js"
   ]
 }
