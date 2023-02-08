@@ -23,9 +23,9 @@ function Expriences() {
                         </div>
                         <div className="exp1 row w-100">
                         <div class="col-12">
-                            <h4>--</h4>
-                            <h4 className="font-weight">--</h4>
-                            <h6 className="font-weight"><i class="mr-2 fas fa-calendar-week"></i>--</h6>
+                            <h4>Associate software developer</h4>
+                            <h4 className="font-weight">Accenture</h4>
+                            <h6 className="font-weight"><i class="mr-2 fas fa-calendar-week"></i>August, 2022</h6>
                             <p class="mt-4"></p>
                         </div>
                         </div>
