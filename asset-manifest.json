@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mks-portfolio/static/css/main.73fed79b.chunk.css",
-    "main.js": "/mks-portfolio/static/js/main.22fbedbe.chunk.js",
-    "main.js.map": "/mks-portfolio/static/js/main.22fbedbe.chunk.js.map",
+    "main.js": "/mks-portfolio/static/js/main.c96546f4.chunk.js",
+    "main.js.map": "/mks-portfolio/static/js/main.c96546f4.chunk.js.map",
     "runtime-main.js": "/mks-portfolio/static/js/runtime-main.3f5bbf57.js",
     "runtime-main.js.map": "/mks-portfolio/static/js/runtime-main.3f5bbf57.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/mks-portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.73fed79b.chunk.css.map": "/mks-portfolio/static/css/main.73fed79b.chunk.css.map",
     "static/js/2.bf511ae7.chunk.js.LICENSE.txt": "/mks-portfolio/static/js/2.bf511ae7.chunk.js.LICENSE.txt",
     "static/media/3556960.d27e9c63.jpg": "/mks-portfolio/static/media/3556960.d27e9c63.jpg",
+    "static/media/3D.a96c3a22.jpg": "/mks-portfolio/static/media/3D.a96c3a22.jpg",
     "static/media/Screenshot 2021-10-21 at 4.38.35 PM.e129c934.png": "/mks-portfolio/static/media/Screenshot 2021-10-21 at 4.38.35 PM.e129c934.png",
     "static/media/Screenshot 2021-10-31 at 1.23.39 PM.2efef036.png": "/mks-portfolio/static/media/Screenshot 2021-10-31 at 1.23.39 PM.2efef036.png",
     "static/media/gr-min.07f6213a.jpg": "/mks-portfolio/static/media/gr-min.07f6213a.jpg"
@@ -24,6 +25,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.bf511ae7.chunk.js",
     "static/css/main.73fed79b.chunk.css",
-    "static/js/main.22fbedbe.chunk.js"
+    "static/js/main.c96546f4.chunk.js"
   ]
 }
