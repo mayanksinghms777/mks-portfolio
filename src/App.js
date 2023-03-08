@@ -14,7 +14,7 @@ const App =() => {
     <>
     <BrowserRouter basename="/mks-portfolio">   
     <Navbar/>
-     <Route exact path ="/">
+     <Route exact path ="/mks-portfolio">
           <Home/>
       </Route>
 
@@ -33,7 +33,7 @@ const App =() => {
       <Route exact path ="/contact">
           <Contact/>
       </Route>
-      <Redirect to="/" />
+      <Redirect to="/mks-portfolio" />
       </BrowserRouter>
 
     </>

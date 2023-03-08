@@ -352,7 +352,8 @@ a {
   width: 100%;
 }
 .active-phone {
-  background-color: #000;
+  /*background-color: #000;*/
+  background-color: #2e2b2b;
   -webkit-filter: grayscale(0) opacity(1);
   filter: grayscale(0) opacity(1);
   width: 100%;

@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import lottie from "lottie-web";
 import hotelimg from "./images/Screenshot 2021-10-21 at 4.38.35 PM.png"
 import weatherimg from "./images/Screenshot 2021-10-31 at 1.23.39 PM.png"
+import img3d from "./images/3D.jpg"
 import dashimg from "./images/3556960.jpg"
 
 function Projects() {
@@ -36,6 +37,27 @@ function Projects() {
                     </div>
                 </div>
                     
+                        <div className=" row p-0 m-0 mt-5 w-100 justify-content-center">
+                            <div class="p-2 col-12 d-flex flex-column align-items-center justify-content-center">
+                                <div className="row w-100">
+                                    <div className="col-12 col-sm-6 d-flex flex-row align-item-center justify-content-center">
+                                        <img className="align-self-center" width="90%" src={img3d} alt="" />
+                                    </div>
+                                    <div class="col-12 col-sm-6 mt-2 mt-sm-0 d-flex flex-column align-item-center justify-content-center">
+                                    <h5 class="w-100" data-aos="fade-down" >3D Web Portfolio
+                                        <div className="project-links">
+                                        <a target="_blank" rel="noreferrer" href="https://https://github.com/mayanksinghms777/3D-portfolio-mks"><i class="ml-4 mr-1 fab fa-github"></i></a>
+                                        <a target="_blank" rel="noreferrer" href="https://mayanksinghms777.github.io/3D-portfolio-mks/"><i class="ml-2 mr-1 fa fa-external-link-alt"></i></a>
+                                        </div>
+                                    </h5>
+                                    <p>A 3D visual interface personal portfolio website from scratch. Open it on desktop.</p>
+                                    <div><span class=" badge">Three.js</span>
+                                    <span class=" badge">React.js</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className=" row p-0 m-0 mt-5 w-100 justify-content-center">
                             <div class="p-2 col-12 d-flex flex-column align-items-center justify-content-center">
                                 <div className="row w-100">

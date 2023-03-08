@@ -40,7 +40,7 @@ function Navbar() {
   <ul class="nav_list">
 
     <li class="list-item" data-tooltip="Home">
-      <NavLink onClick={handleCollapse1} exact to="/" activeClassName="active" className="list-item1">
+      <NavLink onClick={handleCollapse1} exact to="/mks-portfolio" activeClassName="active" className="list-item1">
         <i class="fas fa-home"></i>
         <span class="text">Home</span>
       </NavLink>
@@ -108,7 +108,7 @@ function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink onClick={handleCollapse}  exact className="nav-link" activeClassName="active-phone" aria-current="page" to="/">
+          <NavLink onClick={handleCollapse}  exact className="nav-link" activeClassName="active-phone" aria-current="page" to="/mks-portfolio">
           <i className="fas fa-home"></i>
           <span className="link-test">Home</span></NavLink>
         </li>
