@@ -3,8 +3,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import lottie from "lottie-web";
 import hotelimg from "./images/Screenshot 2021-10-21 at 4.38.35 PM.png"
-import weatherimg from "./images/Screenshot 2021-10-31 at 1.23.39 PM.png"
+import chatimg from "./images/chatimg.png"
 import img3d from "./images/3D.jpg"
+import shoesEcommerceImg from "./images/shoesEcommerceImg.webp"
 import dashimg from "./images/3556960.jpg"
 
 function Projects() {
@@ -37,6 +38,30 @@ function Projects() {
                     </div>
                 </div>
                     
+                        <div className=" row p-0 m-0 mt-5 w-100 justify-content-center">
+                            <div class="p-2 col-12 d-flex flex-column align-items-center justify-content-center">
+                                <div className="row w-100">
+                                    <div className="col-12 col-sm-6 d-flex flex-row align-item-center justify-content-center">
+                                        <img className="align-self-center" width="90%" src={shoesEcommerceImg} alt="" />
+                                    </div>
+                                    <div class="col-12 col-sm-6 mt-2 mt-sm-0 d-flex flex-column align-item-center justify-content-center">
+                                    <h5 class="w-100" data-aos="fade-down" >Shoes E-commerce Website
+                                        <div className="project-links">
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/mayanksinghms777/shoes-store-back"><i class="ml-4 mr-1 fab fa-github"></i></a>
+                                        <a target="_blank" rel="noreferrer" href="https://shoe-store-front.vercel.app/"><i class="ml-2 mr-1 fa fa-external-link-alt"></i></a>
+                                        </div>
+                                    </h5>
+                                    <p>A Shoes E-commerce FullStack website made with payment integration, api calls and many more functionalities. </p>
+                                    <div><span class=" badge">Next.js</span>
+                                    <span class=" badge">React.js</span>
+                                    <span class=" badge">Redux</span>
+                                    <span class=" badge">Stripe</span>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div className=" row p-0 m-0 mt-5 w-100 justify-content-center">
                             <div class="p-2 col-12 d-flex flex-column align-items-center justify-content-center">
                                 <div className="row w-100">
@@ -104,24 +129,28 @@ function Projects() {
                             <div class="p-2 col-12 d-flex flex-column align-items-center justify-content-center">
                                 <div className="row w-100">
                                     <div className="col-12 col-sm-6 d-flex flex-row align-item-center justify-content-center">
-                                        <img className="align-self-center" width="90%" height="80%" src={weatherimg} alt="" />
+                                        <img className="align-self-center" width="90%" height="80%" src={chatimg} alt="" />
                                     </div>
                                     <div class="col-12 col-sm-6 mt-2 mt-sm-0 d-flex flex-column align-item-center justify-content-center">
-                                    <h5 class="w-100" data-aos="fade-up" >Weather App
+                                    <h5 class="w-100" data-aos="fade-up" >RealTime Chat App
                                     <div className="project-links">
-                                        <a target="_blank" rel="noreferrer" href="https://github.com/mayanksinghms777/weather_app"><i class="ml-4 mr-1 fab fa-github"></i></a>
-                                        <a target="_blank" rel="noreferrer" href="https://mayank-weatherapp.herokuapp.com/"><i class="ml-2 mr-1 fa fa-external-link-alt"></i></a>
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/mayanksinghms777/ChatApp"><i class="ml-4 mr-1 fab fa-github"></i></a>
+                                        <a target="_blank" rel="noreferrer" href="https://github.com/mayanksinghms777/ChatApp"><i class="ml-2 mr-1 fa fa-external-link-alt"></i></a>
                                     </div>
                                     </h5>
-                                    <p data-aos="fade-down-left">A software using Api show the current temperature of given state or country.</p>
-                                    <div><span class="badge">JavaScript</span>
-                                    <span class="badge">React.js</span></div>
+                                    <p data-aos="fade-down-left">This is realtime chat app using powerfull tool i.e socket.io and javascript.</p>
+                                    <div><span class="badge">Socket.io</span>
+                                    <span class="badge">Javascript</span></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
-                  
+                        <div className="p-0 mt-1 col-12 col-sm-8 d-flex flex-column align-items-center justify-content-center">
+                            <div className="row mail">
+                                <a className="button-contact btn m-0 mb-5" target="__blank__" href="https://github.com/mayanksinghms777?tab=repositories" ><b>More Projects </b></a>
+                            </div>
+                        </div>
             </div>
            </section>
         </>
