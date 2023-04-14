@@ -148,7 +148,7 @@ function Projects() {
                         
                         <div className="p-0 mt-5 col-12 col-sm-8 d-flex flex-column align-items-center justify-content-center">
                             <div className="row mail">
-                                <a className="button-contact btn m-0 mb-5" target="__blank__" href="https://github.com/mayanksinghms777?tab=repositories"><b>More Projects &nbsp;<span><i class="ml-4 mr-1 fab fa-github"></i></span></b></a>
+                                <a className="button-contact btn m-0 mb-5" target="__blank__" href="https://github.com/mayanksinghms777?tab=repositories"><b>More Projects &nbsp;<span><i style={{color:"black"}} class="ml-4 mr-1 fab fa-github"></i></span></b></a>
                             </div>
                         </div>
             </div>
